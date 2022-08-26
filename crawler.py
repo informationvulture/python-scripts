@@ -11,6 +11,7 @@ import json  # twint uses json
 # handle arguments
 parser = argparse.ArgumentParser(description='Filter Tweets.')
 parser.add_argument("-u", required=True)
+parser.add_argument("-f", required=False)
 args = parser.parse_args()
 
 
@@ -24,3 +25,5 @@ with (open(f"{args.u}_tweets.json", "r", encoding="utf-8") as input_file,
     for line in input_file:
         tweet = json.loads(line)
         out_file.write(tweet['created_at'] + " " + tweet['tweet'] + "\n")
+
+print(args.f)
