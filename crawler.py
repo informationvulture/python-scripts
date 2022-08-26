@@ -19,8 +19,8 @@ retcode = subprocess.call(
         ['twint', '-u', args.u, '-o', f'{args.u}_tweets.json', '--json'],
         stdout=subprocess.DEVNULL, stderr=subprocess.STDOUT)
 
-with (open(f"{args.u}_tweets.json", "r") as input_file,
-        open(f"readable_{args.u}_tweets.txt", "w") as out_file):
+with (open(f"{args.u}_tweets.json", "r", encoding="utf-8") as input_file,
+        open(f"readable_{args.u}_tweets.txt", "w", encoding="utf-8") as out_file):
     for line in input_file:
         tweet = json.loads(line)
         out_file.write(tweet['created_at'] + " " + tweet['tweet'] + "\n")
