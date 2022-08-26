@@ -15,7 +15,7 @@ args = parser.parse_args()
 
 
 # run Twint
-retcode = subprocess.call(
+CALL_RUN = subprocess.call(
         ['twint', '-u', args.u, '-o', f'{args.u}_tweets.json', '--json'],
         stdout=subprocess.DEVNULL, stderr=subprocess.STDOUT)
 
