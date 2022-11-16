@@ -21,3 +21,14 @@ This project seeks to automate the collection of the indemand career titles, hel
 
 ## What does this project use?
 This project is made using Python.
+
+
+
+## Resources used:
+
+Getting Selenium setup with chromedriver:
+https://www.keeganleary.com/setting-up-chrome-and-selenium-with-python-on-a-virtual-private-server-digital-ocean/
+
+
+Getting Selenium setup:
+https://towardsdatascience.com/using-python-and-selenium-to-automate-filling-forms-and-mouse-clicks-f87c74ed5c0f
