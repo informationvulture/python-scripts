@@ -23,6 +23,15 @@ This project seeks to automate the collection of the indemand career titles, hel
 This project is made using Python.
 
 
+## Current issues
+
+##### 2022-11-15 10:40 PM
+The scraping file works, but can't get all the jobs (currently 22) from the page. It gets the first, and then maybe 5 but misses a bunch in between.
+
+
+Various testing has led me to conclude that this is a problem with loading, as it was seen at least once to provide more titles then it currently gives.
+
+
 
 ## Resources used:
 
