@@ -43,9 +43,9 @@ print(f"There are currently \
 {len(formated_job_titles)} in-demand job postings on the CAF website.\n")
 
 print("They are:")
-for c,v in enumerate(formated_job_titles):
-    print(f"{c+1}. {v.ljust(MAX_LEN)}")
+for jobIndex,job in enumerate(formated_job_titles):
+    print(f"{jobIndex+1}. {job.ljust(MAX_LEN)}")
 
 with open(f"{datetime.today().strftime('%Y-%m-%d')}outputs.txt", "w", encoding="utf-8") as f:
-    for c,v in enumerate(formated_job_titles):
-        f.write(f"{c+1} {v}{' ' * MAX_LEN}\n")
+    for jobIndex,job in enumerate(formated_job_titles):
+        f.write(f"{jobIndex+1} {job}{' ' * MAX_LEN}\n")

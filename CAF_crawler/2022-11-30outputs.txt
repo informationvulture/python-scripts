@@ -1,0 +1,22 @@
+1 Aerospace Telecommunication and Information Systems Technician                                                              
+2 Information Systems Technician                                                              
+3 Internal Medicine Specialist (Medical Specialist)                                                              
+4 Marine Systems Engineering Officer                                                              
+5 Marine Technician                                                              
+6 Naval Communicator                                                              
+7 Operating Room Technician                                                              
+8 Orthopedic Surgeon (Medical Specialist)                                                              
+9 Radiologist (Medical Specialist)                                                              
+10 Signal Operator                                                              
+11 Signals Officer                                                              
+12 Weapons Engineering Technician                                                              
+13 Aerospace Control Operator                                                              
+14 Airborne Electronic Sensor Operator                                                              
+15 Aviation Systems Technician                                                              
+16 Avionics Systems Technician                                                              
+17 Financial Services Administrator                                                              
+18 Human Resources Administrator                                                              
+19 Materiel Management Technician                                                              
+20 Signal Technician                                                              
+21 Social Work Officer                                                              
+22 Sonar Operator                                                              
